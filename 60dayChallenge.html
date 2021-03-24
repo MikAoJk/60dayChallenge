@@ -56,12 +56,14 @@
 <script type="text/javascript">
     // Should match the number of participants
     const colors = ["#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc",
-        "#eaeaea","#cccccc","#eaeaea", "#cccccc", "#eaeaea", "#cccccc","#eaeaea", "#cccccc"];
+        "#eaeaea","#cccccc","#eaeaea", "#cccccc", "#eaeaea", "#cccccc","#eaeaea", "#cccccc","#eaeaea", "#cccccc",
+        "#eaeaea", "#cccccc", "#eaeaea", "#cccccc", "#eaeaea"];
 
     // NEED to pre load this data prior
     // Should match the numper of colors
-    const participants = durstenfeldShuffle(["User1", "User2", "User3", "User4", "User5", "User6", "User7", "User8",
-        "User9", "User10", "User11", "User12", "User13", "User14", "User15", "User16", "User17"]);
+    const participants = durstenfeldShuffle(["Kirils", "Jan Egil", "Kārlis", "Marianne", "Nicolai T", "Philip", "Inese ",
+        "Kjetil", "Pavels", "Morten", "Deleted", "To ", "Lina ", "Iselin", "Petter", "Tomas", "Ann Elisabeth",
+        "Tim", "Rune", "Oddvar", "Joakim", "Karina", "Kerstin", "Henriks"]);
 
     let startAngle = 0;
     const arc = Math.PI / (participants.length / 2);
