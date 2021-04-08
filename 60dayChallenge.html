@@ -46,6 +46,12 @@
         <td>20 euro giftcard</td>
     </tr>
 
+    <tr>
+        <td></td>
+        <td>08.04.2021</td>
+        <td></td>
+    </tr>
+
 </table>
 
 <button id="spin" class="button">Spin</button>
@@ -55,15 +61,15 @@
 
 <script type="text/javascript">
     // Should match the number of participants
-    const colors = ["#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc",
+    const colors = ["#eaeaea", "#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc", "#eaeaea", "#cccccc",
         "#eaeaea","#cccccc","#eaeaea", "#cccccc", "#eaeaea", "#cccccc","#eaeaea", "#cccccc","#eaeaea", "#cccccc",
-        "#eaeaea", "#cccccc", "#eaeaea"];
+        "#eaeaea"];
 
     // NEED to pre load this data prior
     // Should match the numper of colors
-    const participants = durstenfeldShuffle(["Kirils", "Jan Egil", "Kārlis", "Marianne", "Nicolai T", "Philip", "Inese",
-        "Kjetil", "Pavels", "Morten", "To Be", "Lina ", "Iselin", "Petter", "Tomas", "Ann Elisabeth",
-        "Tim", "Rune", "Oddvar", "Joakim", "Karina", "Kerstin"]);
+    const participants = durstenfeldShuffle(["Inese", "Kjetil", "Pavels", "Jan Egil", "Nicolai T", "Marianne", "Iselin",
+        "Kārlis", "Morten", "Ann Elisabeth", "Nikolasj", "Philip", "Petter", "Lina" , "Tomas",
+        "Tim", "Kerstin", "Oddvar", "Rune"]);
 
     let startAngle = 0;
     const arc = Math.PI / (participants.length / 2);
